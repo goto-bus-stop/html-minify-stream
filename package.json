@@ -1,0 +1,36 @@
+{
+  "name": "html-minify-stream",
+  "description": "minify html in a stream using html-minifier.",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/html-minify-stream/issues"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "from2-string": "^1.1.0",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/html-minify-stream",
+  "keywords": [
+    "html",
+    "html-minifier",
+    "minify",
+    "stream"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/html-minify-stream.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "html-minifier": "^3.5.5",
+    "through2": "^2.0.3"
+  }
+}
