@@ -1,7 +1,7 @@
 {
   "name": "html-minify-stream",
   "description": "minify html in a stream using html-minifier.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/html-minify-stream/issues"
