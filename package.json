@@ -30,7 +30,7 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "html-minifier": "^3.5.5",
+    "html-minifier": "^4.0.0",
     "through2": "^3.0.1"
   }
 }
